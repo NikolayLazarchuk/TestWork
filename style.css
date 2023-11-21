@@ -1,0 +1,82 @@
+*{
+  box-sizing: border-box;
+}
+
+  /* font-family: 'DM Sans', sans-serif; */
+.body{
+  background: #F5EDE7;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+main{
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 16px;
+}
+
+div,
+h1,
+h2,
+h3,
+p,
+img,
+a{
+  margin: 0;
+  padding: 0;
+}
+
+/* 0 16 8 20 */
+.about{
+
+}
+
+.about__title{
+  text-align: center;
+  font-size: 43px;
+  line-height: 60.01px; /* 139.559% */
+  text-transform: uppercase;
+  margin-bottom: 63px;
+}
+
+.about__wrapper{
+  display: flex;
+}
+
+
+.about__card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 23.19vw;
+  height: auto;
+  
+}
+
+.about__card:not(:last-child) {
+  margin-right: 24px; /* Наприклад, встановіть бажаний відступ */
+}
+
+.about__img{
+  width: 6.88vw;
+  height: auto;
+  padding-bottom: 12px;
+}
+
+.about__name{
+  text-align: center;
+  font-size: 27px;
+  line-height: 35.996px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.about__text{
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28.008px; /* 155.6% */
+}
+
