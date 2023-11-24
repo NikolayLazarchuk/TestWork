@@ -30,7 +30,7 @@ a{
 
 /* 0 16 8 20 */
 .about{
-
+  height: 497px;
 }
 
 .about__title{
@@ -78,6 +78,25 @@ a{
   text-align: center;
   font-size: 18px;
   line-height: 28.008px; /* 155.6% */
+}
+
+.about__button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 42px;
+}
+.button__shop{
+  width: 310px;
+  height: 58px;
+  border-radius: 35px;
+  border: 1px solid #0126DE;
+  color: 0126DE;
+  background-color: #F5EDE7;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34.002px; /* 154.553% */
 }
 
 /*Mykola (header)*/
