@@ -9,12 +9,10 @@
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
-}
-
-main{
   max-width: 1440px;
   width: 100%;
   padding: 0 16px;
+  margin: 0 auto;
 }
 
 div,
@@ -23,9 +21,15 @@ h2,
 h3,
 p,
 img,
+h1,
 a{
   margin: 0;
   padding: 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
 }
 
 /* 0 16 8 20 */
@@ -86,6 +90,7 @@ a{
   align-items: center;
   margin-top: 42px;
 }
+
 .button__shop{
   width: 310px;
   height: 58px;
@@ -101,9 +106,7 @@ a{
 
 /*Mykola (header)*/
 .header {
-  width: 1440px;
   height: 87px;
-  background-color: #f5ede7;
   justify-content: space-between;
   align-items: flex-end;
   padding-top: 0;
@@ -120,7 +123,6 @@ a{
 }
 
 .login_link {
-  color: #000;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
@@ -199,13 +201,13 @@ a{
 
 /*Mykola(main)*/
 .main {
-  width: 1440px;
   height: 612px;
   background-color: #ffc3a0;
   justify-content: space-around;
   align-items: center;
   display: flex;
 }
+
 .main-content-container {
   width: 462px;
   height: 563px;
@@ -215,12 +217,14 @@ a{
   padding-bottom: 48px;
   display: flex;
 }
+
 .main-paragraph {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 76px;
   line-height: 90px;
 }
+
 .main-text-container {
   width: 310px;
   height: 58px;
@@ -230,10 +234,12 @@ a{
   align-items: center;
   display: flex;
 }
+
 .main-text {
   font-size: 18px;
   line-height: 28px;
 }
+
 .main-text-container {
   width: 310px;
   height: 58px;
@@ -243,23 +249,12 @@ a{
   align-items: center;
   display: flex;
 }
+
 .container-text {
   font-size: 22px;
   line-height: 22px;
 }
-.main-text-container {
-  width: 310px;
-  height: 58px;
-  border: 2px solid #000;
-  border-radius: 90px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.container-text {
-  font-size: 22px;
-  line-height: 22px;
-}
+
 .main-slider-container {
   width: 897px;
   height: 563px;
@@ -267,34 +262,37 @@ a{
   align-items: flex-end;
   display: flex;
   overflow: hidden;
+  background-image: url('./img/cruasan.png');
+  max-width: 897px;
+  width: 100%;
 }
+
 .right-arrov-image, .left-arrov-image {
   width: 36px;
 }
+
 .cruasan-image {
-  position:absolute;
+  max-width: 897px;
+  width: 100%;
+  height: auto;
 }
-.right-arrow {
+
+.right-arrow, .left-arrow {
   width: 54px;
   height: 36px; 
   border: 2px solid #000;
   justify-content: center;
   align-items: center;
   margin-bottom: 16px;
-  margin-right: 17px;
   display: flex;
-  position: relative;
+
+}
+
+.right-arrow{
+  margin-right: 17px;
 }
 
 .left-arrow {
-  width: 54px;
-  height: 36px; 
-  border: 2px solid #000;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 16px;
   margin-right: 5px;
-  display: flex;
-  position: relative;
 } 
 /*Mykola(main)*/
