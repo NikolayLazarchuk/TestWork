@@ -32,17 +32,22 @@ a{
   text-decoration: none;
 }
 
+button{
+  cursor: pointer;
+}
+
 /* 0 16 8 20 */
 .about{
   height: 497px;
 }
 
-.about__title{
+.section__title{
   text-align: center;
   font-size: 43px;
   line-height: 60.01px; /* 139.559% */
   text-transform: uppercase;
   margin-bottom: 63px;
+  margin-top: 80px;
 }
 
 .about__wrapper{
@@ -296,3 +301,56 @@ a{
   margin-right: 5px;
 } 
 /*Mykola(main)*/
+
+/*Yana(shop)*/
+.shop__container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.section__title{
+  margin-bottom: 24px;
+  margin-top: 71px;
+}
+
+.shop__cards{
+  display: flex;
+  flex-direction: column;
+  width: 453px;
+  height: 624px;
+  text-transform: uppercase;
+}
+
+.shop__img_card{
+  margin-bottom: 12px;
+}
+
+.shop__name_img{
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 35.996px; /* 133.32% */
+}
+
+.shop__couts{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.997px; /* 139.986% */
+
+}
+
+.button__card{
+  width: 257px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 35px;
+  border: 1px solid #0126DE;
+  color: 0126DE;
+  background-color: #F5EDE7;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34.002px; /* 154.553% */
+  margin-top: 9px;
+}
