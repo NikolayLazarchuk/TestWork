@@ -19,6 +19,8 @@ div,
 h1,
 h2,
 h3,
+h4,
+h5,
 p,
 img,
 h1,
@@ -41,6 +43,14 @@ h3{
   font-size: 27px;
   line-height: 35.996px;
   padding-bottom: 5px;
+}
+
+h4{
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 72pxpx;
+  margin-top: 18px;
+  margin-bottom: 14px;
 }
 
 /* 0 16 8 20 */
@@ -75,13 +85,18 @@ h3{
 }
 
 .about__card:not(:last-child) {
-  margin-right: 24px; /* Наприклад, встановіть бажаний відступ */
+  /* відступ останньої картки */
+  margin-right: 0;
+}
+
+.about__card:not(:first-child){
+  margin-left: 0;
 }
 
 .about__img{
   width: 99px;
   height: auto;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .about__name{
@@ -359,4 +374,74 @@ h3{
   font-weight: 400;
   line-height: 34.002px; /* 154.553% */
   margin-top: 9px;
+}
+
+/* Yana (footer) */
+.join{
+  display: flex;
+  justify-content: center;
+}
+
+.join__text{
+text-align: center;
+font-size: 31px;
+line-height: 43.992px; /* 141.91% */
+}
+
+.footer__button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 33px;
+}
+
+.join__button{
+  width: 480px;
+  height: 58px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background: rgba(255, 255, 255, 0.25);
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.footer__content{
+  display: flex;
+  height: 440.547px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  /* рівні відступи між елементами */
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__navigation{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.navigation_main{
+  display: flex;
+  margin-bottom: 24px;
+  font-size: 22px;
+  line-height: 36.018px;
+}
+.navigation_link{
+  display: flex;
+  margin: 4px 0;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 16px;
+  line-height: 24.003px; /* 150.019% */
+  text-transform: uppercase;
+}
+
+.footer_develop{
+  /* display: flex;
+  align-items: end; */
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 24.003px; /* 171.449% */
 }
