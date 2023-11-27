@@ -36,9 +36,17 @@ button{
   cursor: pointer;
 }
 
+h3{
+  text-transform: uppercase;
+  font-size: 27px;
+  line-height: 35.996px;
+  padding-bottom: 5px;
+}
+
 /* 0 16 8 20 */
 .about{
-  height: 497px;
+  /* height: 497px; */
+  /* width: auto; */
 }
 
 .section__title{
@@ -50,18 +58,20 @@ button{
   margin-top: 80px;
 }
 
+
 .about__wrapper{
   display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
 }
-
 
 .about__card{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 23.19vw;
-  height: auto;
-  
+  width: 334px;
+  height: auto; 
 }
 
 .about__card:not(:last-child) {
@@ -69,17 +79,13 @@ button{
 }
 
 .about__img{
-  width: 6.88vw;
+  width: 99px;
   height: auto;
   padding-bottom: 12px;
 }
 
 .about__name{
   text-align: center;
-  font-size: 27px;
-  line-height: 35.996px;
-  padding-bottom: 5px;
-  text-transform: uppercase;
 }
 
 .about__text{
