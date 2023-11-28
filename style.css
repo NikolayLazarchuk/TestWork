@@ -380,6 +380,7 @@ h4{
 .join{
   display: flex;
   justify-content: center;
+  /* margin-bottom: 65px; */
 }
 
 .join__text{
@@ -409,18 +410,38 @@ line-height: 43.992px; /* 141.91% */
 .footer__content{
   display: flex;
   height: 440.547px;
-  padding-top: 65px;
-  padding-bottom: 65px;
-  /* рівні відступи між елементами */
   justify-content: space-between;
+  margin: 0 16px;
+  padding: 65px 0;
+  /* рівні відступи між елементами */
   align-items: flex-start;
 }
+
+.logo{
+  /* padding-left: 0; */
+  /* justify-content: flex-start; */
+}
+
+.footer__logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 65px;
+  height: 375px;
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 24.003px;
+} 
 
 .footer__navigation{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
+
+/* .footer__content:not(:last-child){
+  margin-right: 0;
+} */
 
 .navigation_main{
   display: flex;
@@ -429,7 +450,7 @@ line-height: 43.992px; /* 141.91% */
   line-height: 36.018px;
 }
 .navigation_link{
-  display: flex;
+  /* display: flex; */
   margin: 4px 0;
   color: #000;
   font-family: DM Sans;
@@ -438,10 +459,3 @@ line-height: 43.992px; /* 141.91% */
   text-transform: uppercase;
 }
 
-.footer_develop{
-  /* display: flex;
-  align-items: end; */
-  font-family: DM Sans;
-  font-size: 14px;
-  line-height: 24.003px; /* 171.449% */
-}
