@@ -286,9 +286,20 @@ h4{
   align-items: flex-end;
   display: flex;
   overflow: hidden;
-  background-image: url('./img/cruasan.png');
   max-width: 897px;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.slide-1{
+  background-image: url('./img/cruasan.png');
+}
+.slide-2{
+  background-image: url('./img/cruasan2.png');
+}
+.slide-3{
+  background-image: url('./img/cruasan3.jfif');
 }
 
 .right-arrov-image, .left-arrov-image {
@@ -309,6 +320,8 @@ h4{
   align-items: center;
   margin-bottom: 16px;
   display: flex;
+  background: none;
+
 }
 
 .right-arrow{
@@ -452,5 +465,8 @@ line-height: 43.992px; /* 141.91% */
   font-size: 16px;
   line-height: 24.003px; /* 150.019% */
   text-transform: uppercase;
+}
+.main-image{
+  margin-top: 65px;
 }
 
