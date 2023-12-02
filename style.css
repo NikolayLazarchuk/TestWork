@@ -115,6 +115,7 @@ h4{
   justify-content: center;
   align-items: center;
   margin-top: 42px;
+  margin: 64px;
 }
 
 .button__shop{
@@ -336,6 +337,7 @@ h4{
 /*Yana(shop)*/
 .shop__container{
   display: flex;
+  margin-bottom: 72px;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
@@ -392,6 +394,10 @@ h4{
   /* margin-bottom: 65px; */
 }
 
+.join__content{
+  margin-top: 17px;
+}
+
 .join__text{
 text-align: center;
 font-size: 31px;
@@ -427,8 +433,6 @@ line-height: 43.992px; /* 141.91% */
 }
 
 .logo{
-  /* padding-left: 0; */
-  /* justify-content: flex-start; */
 }
 
 .footer__logo{
@@ -448,10 +452,6 @@ line-height: 43.992px; /* 141.91% */
   flex-wrap: wrap;
 }
 
-/* .footer__content:not(:last-child){
-  margin-right: 0;
-} */
-
 .navigation_main{
   display: flex;
   margin-bottom: 24px;
@@ -459,7 +459,6 @@ line-height: 43.992px; /* 141.91% */
   line-height: 36.018px;
 }
 .navigation_link{
-  /* display: flex; */
   margin: 4px 0;
   font-family: 'DM Sans', sans-serif;
   font-size: 16px;
@@ -468,5 +467,40 @@ line-height: 43.992px; /* 141.91% */
 }
 .main-image{
   margin-top: 65px;
+  background-color: ;
+}
+
+/*Yana(slider)*/
+
+.slider__container{
+  height: 541px;
+  width: 100%;
+}
+.slider__title{
+  display: flex;
+  justify-content: center;
+  padding-top: ;
+}
+
+.slider{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 64px;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+
+.slid{
+  display: flex;
+  border-radius: 20px;
+  margin-left: 24px;
+  /* justify-content: space-around; */
+}
+
+.slid_img{
+  border-radius: 20px;
+  width: 336px;
+  height: 336px;
 }
 
