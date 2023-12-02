@@ -503,4 +503,38 @@ line-height: 43.992px; /* 141.91% */
   width: 336px;
   height: 336px;
 }
+/*Mykola*/
+.cards {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+.card-img-heading-paragraph {
+  width: 459px;
+  height: 630px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
+.mykola-card-image {
+  width: 409px;
+  height: 272px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  
+}
+.mykola-card-heading {
+  font-size: 57px;
+  line-height: 68.553px;
+  margin-bottom: 20px;
+}
+.mykola-card-paragraph {
+  font-family: DM Sans;
+  font-size: 18px;
+  line-height: 28.008px;
+  text-align: center;
+}
