@@ -36,6 +36,8 @@ a{
 
 button{
   cursor: pointer;
+  border: 1px solid #0126DE;
+  color: #0126DE;
 }
 
 h3{
@@ -123,7 +125,7 @@ h4{
   height: 58px;
   border-radius: 35px;
   border: 1px solid #0126DE;
-  color: 0126DE;
+  color: #0126DE;
   background-color: #F5EDE7;
   font-size: 22px;
   font-style: normal;
@@ -377,8 +379,8 @@ h4{
   height: 58px;
   flex-shrink: 0;
   border-radius: 35px;
-  border: 1px solid #0126DE;
-  color: 0126DE;
+  /* border: 1px solid #0126DE;
+  color: 0126DE; */
   background-color: #F5EDE7;
   font-size: 22px;
   font-style: normal;
@@ -417,6 +419,7 @@ line-height: 43.992px; /* 141.91% */
   height: 58px;
   border-radius: 10px;
   border: 1px solid #000;
+  color: black;
   background: rgba(255, 255, 255, 0.25);
   font-size: 17px;
   text-transform: uppercase;
@@ -538,4 +541,89 @@ line-height: 43.992px; /* 141.91% */
   font-size: 18px;
   line-height: 28.008px;
   text-align: center;
+}
+/* Yana(info) */
+.info {
+  display: flex;
+  padding: 16px 164px;
+  flex-wrap: wrap;
+  gap: 48px;
+  justify-content: space-between;
+  background-image: url("./img/sun_top.png");
+  background-position-x: right;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.info__img_tisto {
+  width: 516px;
+  height: 386px;
+  flex-shrink: 0;
+  background: url("./img/tisto.svg");
+}
+
+.info__content_tisto {
+  display: flex;
+  padding: 48px 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h5 {
+  font-family: DM Sans;
+  font-size: 16px;
+  line-height: 24.003px; /* 150.019% */
+  text-transform: uppercase;
+}
+
+.content__text {
+  font-family: Roboto;
+  font-size: 26px;
+  line-height: 40.005px;
+  width: 511px;
+}
+
+.button__info {
+  width: 310px;
+  height: 58px;
+  border-radius: 35px;
+  border: 1px solid black;
+  color: black;
+  background-color: #F5EDE7;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34.002px; /* 154.553% */
+}
+
+.info__down_content{
+  display: flex;
+  width: 1440px;
+  justify-content: space-between;
+  /* background-image: url("img/sun_down.png");
+  background-repeat: no-repeat;
+  background-position: bottom; */
+}
+
+/* .img_sun_down {
+  position: absolute;
+  background-position: bottom;
+    background-image: url("img/sun_down.png");
+  background-repeat: no-repeat;
+} */
+
+.info__content_legenda {
+  display: flex;
+  padding: 92px 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info__down_content {}
+.info__img_legenda {
+  width: 516px;
+  height: 516px;
+  background: url("./img/legenda.png");
+  flex-shrink: 0;
+  position: relative;
 }
